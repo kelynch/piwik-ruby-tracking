@@ -18,7 +18,7 @@ spec = Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency 'rails', '< 5.0', '>= 3.0'
-  s.add_dependency 'actionpack', '~> 0'
+  s.add_dependency 'actionpack', '>= 4.2.5'
   s.add_dependency 'activesupport', '~> 0'
 
   s.add_development_dependency "rspec", "~> 3.5", ">= 3.5.0"
