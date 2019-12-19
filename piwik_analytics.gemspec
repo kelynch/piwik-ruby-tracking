@@ -17,7 +17,7 @@ spec = Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency 'rails', '~> 3.0', '>= 3.0.0'
+  s.add_runtime_dependency 'rails', '< 5.0', '>= 3.0'
   s.add_dependency 'actionpack', '~> 0'
   s.add_dependency 'activesupport', '~> 0'
 
